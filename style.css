@@ -1,0 +1,18 @@
+/* Set background color to black */
+body {
+  background-color: black;
+  color: white; /* Set font color to white */
+  font-family: Arial, sans-serif; /* Fallback font */
+  text-transform: uppercase; /* Make all text uppercase */
+}
+
+/* Import the external font file (optional, can remain unchanged) */
+@font-face {
+  font-family: 'Cooletica Regular'; /* Give your font a name */
+  src: url('coolvetica rg.otf') format('opentype'); /* Font file path */
+}
+
+/* Use the imported font for all elements */
+body, h1, p {
+  font-family: 'Cooletica Regular', Arial, sans-serif; /* Cooletica as preferred, then Arial as fallback */
+}
